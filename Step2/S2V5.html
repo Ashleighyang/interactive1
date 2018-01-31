@@ -51,8 +51,6 @@
   display: grid;
 }
 
-#h1 {
-
 
 }
 
@@ -70,23 +68,30 @@
   column-count: 4;
 }
 
-#A p {
-  position: relative;
-  right: -200px;
-  width: 40%;
+#A {
   font-size: 18px;
-  margin:0 auto;
-  background-color: #466995;
 }
 
 #B {
-  margin-top: 100px;
   position: relative;
-  left: 100px;
+  padding-left:100px;
   width: 40%;
-  background-color: grey;
+  font-size: 18px;
 }
 
+#C {
+  position: relative;
+  padding-left: 200px;
+  width: 40%;
+
+}
+
+#D {
+  position: relative;
+  padding-left:300px;
+  width: 40%;
+  font-size: 18px;
+}
 
 
 .body1 {
@@ -108,20 +113,20 @@
 
 <div class="title1">
   <h3>The web was not envisioned as a form of television when it was invented.</h3>
-  <p>But, like it or not, it is rapidly resembling TV: linear, passive, programmed and inward-looking. </p>
+  <p id="A">But, like it or not, it is rapidly resembling TV: linear, passive, programmed and inward-looking. </p>
 
 </div>
 
   <div class="title2">
     <h3>When I log on to Facebook, my personal television starts.</h3>
-    <p id="A">All I need to do is to scroll: New profile pictures by friends, short bits of opinion on current affairs, links to new stories with short captions, advertising, and of course self-playing videos.
+    <p id="B">All I need to do is to scroll: New profile pictures by friends, short bits of opinion on current affairs, links to new stories with short captions, advertising, and of course self-playing videos.
     I occasionally click on like or share button, read peoples' comments or leave one, or open an article. But I remain inside Facebook, and it continues to broadcast what I might like.
     This is not the web I knew when I went to jail.</p>
   </div>
 
 <div class="title3">
   <h3>This is not the future of the web. <br />This future is television.</h3>
-  <p>Sometimes I think maybe I'm becoming too strict as I age.
+  <p id="C">Sometimes I think maybe I'm becoming too strict as I age.
     Maybe this is all a natural evolution of a technology.
     But I can't close my eyes to what's happening: A loss of intellectual power and diversity, and on the great potentials it could have for our troubled time.
     In the past, the web was powerful and serious enough to land me in jail.
@@ -130,6 +135,6 @@
 
 <div class="title4">
   <h3>That's the web I remember before jail.<br /> That's the web we have to save.</h3>
-  <p>I miss when people took time to be exposed to different opinions, and bothered to read more than a paragraph or 140 characters.
+  <p id="D">I miss when people took time to be exposed to different opinions, and bothered to read more than a paragraph or 140 characters.
 I miss the days when I could write something on my own blog, publish on my own domain, without taking an equal time to promote it on numerous social networks; when nobody cared about likes and reshares.</p>
 </div>
