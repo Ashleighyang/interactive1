@@ -15,6 +15,7 @@
   #title {
     font-family:Helvetica;
     font-weight:bold;
+    color: DarkSlateGray;
   }
 
   #box1{
@@ -34,20 +35,33 @@
 }
 
 #A {
-  /* position:relative; */
-  top: 220px;
+  position:relative;
+  border: 2px solid coral;
+  right: 100px;
+  margin-top: 100px;
   font-size: 20px;
-  color: white
+  color: white;
+  line-height: 2em;
 }
 
 #B {
   /* position: relative; */
   top: 220px;
-  left: 20px
+  right: 20px;
   color:#2c484f;
+  font-family: sans-serif;
 }
 
-#copy {
+#C {
+  position: relative;
+  right: 300px;
+  color: tan;
+  font-size: 50px;
+  opacity: 30%;
+  width: 200px;
+}
+
+.copy {
   margin-top:100px;
   position: relative;
   left:100px;
@@ -60,18 +74,25 @@
 <div id="box1">
   <h1 id="title">Step2 Assigned text V3</h1>
 
-  <div id="copy">
+  <div class="copy">
   <p id="A"><strong>The web was not envisioned as a form of television when it was invented.</strong>
-  <p id="B">But, like it or not, it is rapidly resembling TV: linear, passive, programmed and inward-looking.
-    <br /><br />When I log on to Facebook, my personal television starts.
-    All I need to do is to scroll: New profile pictures by friends, short bits of opinion on current affairs, links to new stories with short captions, advertising, and of course self-playing videos.
-    I occasionally click on like or share button, read peoples' comments or leave one, or open an article. But I remain inside Facebook, and it continues to broadcast what I might like. This is not the web I knew when I went to jail.
+
+   <p id="B">But, like it or not, it is rapidly resembling TV:</p>
+
+    <p id="B">
+    <li>linear, </li>
+    <li>passive,</li>
+    <li>programmed</li>
+    <li>inward-looking.</li></p>
+    <p id="A"><em>When I log on to Facebook, my personal television starts.</em><br/></p>
+    <p id="B">All I need to do is to scroll: New profile pictures by friends, short bits of opinion on current affairs, links to new stories with short captions, advertising, and of course self-playing videos.
+    I occasionally click on like or share button, read peoples' comments or leave one, or open an article. But I remain inside Facebook, and it continues to broadcast what I might like. This is not the web I knew when I went to jail.</p>
 
   <p id="A"><strong>This is not the future of the web. This future is television.</strong></p>
   <hr>
   <p id="B">Sometimes I think maybe I'm becoming too strict as I age. Maybe this is all a natural evolution of a technology. But I can't close my eyes to what's happening: A loss of intellectual power and diversity, and on the great potentials it could have for our troubled time. In the past, the web was powerful and serious enough to land me in jail. Today it feels like little more than entertainment. So much that even Iran doesn't take some - Instagram, for instance - serious enough to block.</p>
 
-  <p id="A"><em>I miss when people took time to be exposed to different opinions, and bothered to read more than a paragraph or 140 characters.
+  <p id="C"><em>I miss when people took time to be exposed to different opinions, and bothered to read more than a paragraph or 140 characters.
     <br />I miss the days when I could write something on my own blog, publish on my own domain, without taking an equal time to promote it on numerous social networks; when nobody cared about likes and reshares.</em></p>
 
   <p id="B">That's the web I remember before jail. That's the web we have to save.</p>
