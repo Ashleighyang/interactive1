@@ -10,21 +10,20 @@
 <style type="text/css">
     #One {
 
-     font-weight: bold;
-     font-size: 50px;
+     font-size: 100px;
      position: absolute;
-     left:-180px;
-     top: 345px;
-     transform: rotate(-90deg);
+     margin-left:30px;
+     top: 300px;
+     transform: rotate(-40deg);
      color: maroon;
      font-family: Futura;
-
+     letter-spacing: 0.5em;
    }
 
    #Two {
-     position: relative;
-     left: 60px;
-     top:100px;
+     position: absolute;
+     right: 60px;
+     bottom:100px;
      font-size: 20px;
    }
    #Red {
@@ -36,20 +35,30 @@
      top:0;
      right: 0px;
    }
- }
+
+   #subtitle{
+     position: relative;
+     bottom:200px;
+     right: -400px;
+     font-size: 40px;
+     font-family: sans-serif;
+     font-weight:bold;
+   }
+#bigG {
+  font-size: 150px;
+}
 </style>
 
 <body>
     <div style="width: 80%;margin: 0 auto 0 auto">
-    <div id="Step2 Assigned text V1">
+    <div id="Gradually">
 
 
-    <h1 id="One">Step2 Assigned text V1</h1>
+    <h1 id="One"><span id="bigG">G</span>radually</h1>
 
-    <div id="Two">
-      <div id="Red"></div>
 
-        <p class="desc">The web was not envisioned as a form of television when it was invented.</p>
+
+        <p>The web was not envisioned as a form of television when it was invented.</p>
 
         <h3>But, like it or not,<br />it is rapidly resembling TV: </h3>
 
@@ -65,7 +74,7 @@
 
         <div id="This is not the future of the web. This future is television.">
 
-            <h3>This is not the <em>future</em> of the web.<br /> This future is television.</h3>
+            <h3> This future is television.</h3>
 
             <p>Sometimes I think maybe I'm becoming too strict as I age. Maybe this is all a natural evolution of a technology. But I can't close my eyes to what's happening: A loss of intellectual power and diversity, and on the great potentials it could have for our troubled time. In the past, the web was powerful and serious enough to land me in jail. Today it feels like little more than entertainment. So much that even Iran doesn't take some - Instagram, for instance - serious enough to block.</p>
 
@@ -77,9 +86,11 @@
             <h3>I miss when people took time to be exposed to different opinions</h3>
 
             <p> and bothered to read more than a paragraph or 140 characters. I miss the days when I could write something on my own blog, publish on my own domain, without taking an equal time to promote it on numerous social networks; when nobody cared about likes and reshares.<br />That's the web I remember before jail. That's the web we have to save.</p>
-            <h2>back</h2>
+
         </div>
         </div>
+    </div>
+      <h2 id="subtitle">This is not the future of web.</h2>
     </div>
   </div>
 </body>
