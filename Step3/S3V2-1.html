@@ -8,12 +8,17 @@
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 </head>
 <style type="text/css">
+
+    body {
+      background: #E8E3D1;
+      opacity: 60%;
+    }
     #One {
 
      font-size: 100px;
      position: absolute;
-     margin-left:30px;
-     top: 300px;
+     left:-50px;
+     top: 200px;
      transform: rotate(-40deg);
      color: maroon;
      font-family: Futura;
@@ -26,66 +31,120 @@
      bottom:100px;
      font-size: 20px;
    }
+
+   #Three {
+     Top: 150px;
+     position: relative;
+   }
+
+   #Four {
+     color: #C94217;
+     font-size: 38px;
+     opacity: 60%;
+     text-transform: capitalize;
+     transform: rotate(-90deg);
+     left: -100px;
+     position: absolute;
+   }
+
    #Red {
      width:100px;
      height: 20px;
      background: Maroon;
-     opacity: 80%
+     opacity: 80%;
      position: relative;
-     top:0;
+     top:80px;
      right: 0px;
    }
 
    #subtitle{
      position: relative;
-     bottom:200px;
-     right: -400px;
-     font-size: 40px;
+     bottom:150px;
+     right: -600px;
+     font-size: 50px;
      font-family: sans-serif;
+     width:250px;
      font-weight:bold;
    }
 #bigG {
-  font-size: 150px;
+  font-size: 180px;
 }
+
+#bigR {
+  font-size: 165px;
+}
+
+  .list {
+    border-left: 2px solid maroon;
+    padding: 10px;
+    right: 120px;
+    top:12px;
+    position:absolute;
+  }
+
+  .TV {
+    position: relative;
+    top: 50px;
+    left:195px;
+    width: 400px;
+    text-align: right;
+    border-bottom: 2px solid Maroon;
+    padding: 10px;
+  }
+
+  .Facebook {
+    position: relative;
+    top: 80px;
+
+  }
+
+  .Imiss {
+    position: relative;
+    top:160px;
+  }
+
 </style>
 
 <body>
-    <div style="width: 80%;margin: 0 auto 0 auto">
+    <div style="width: 60%;margin: 0 auto 0 auto">
     <div id="Gradually">
 
 
-    <h1 id="One"><span id="bigG">G</span>radually</h1>
+    <h1 id="One"><span id="bigG">G</span><span id="bigR">r</span>adually</h1>
 
 
 
-        <p>The web was not envisioned as a form of television when it was invented.</p>
+        <p class="TV">The web was not envisioned as a form of television when it was invented.
+But, like it or not,it is rapidly resembling TV: </P>
 
-        <h3>But, like it or not,<br />it is rapidly resembling TV: </h3>
 
-          <p style="padding-left:5pt">
-            <li>linear
-            <li>passive
-            <li>programmed
-            <li>inward-looking.
-          </p>
+            <p class="list"><em>
+            <br />linear
+            <br />passive
+            <br />programmed
+            <br />inward-looking.
+            </em>
+            </p>
+
+
       <div id="Red"></div>
-        <p>When I log on to Facebook, my personal television starts. All I need to do is to scroll: New profile pictures by friends, short bits of opinion on current affairs, links to new stories with short captions, advertising, and of course self-playing videos. I occasionally click on like or share button, read peoples' comments or leave one, or open an article. But I remain inside Facebook, and it continues to broadcast what I might like. This is not the web I knew when I went to jail. </p>
+        <p class="Facebook">When I log on to Facebook, my personal television starts. All I need to do is to scroll: New profile pictures by friends, short bits of opinion on current affairs, links to new stories with short captions, advertising, and of course self-playing videos. I occasionally click on like or share button, read peoples' comments or leave one, or open an article. But I remain inside Facebook, and it continues to broadcast what I might like. This is not the web I knew when I went to jail. </p>
 
 
-        <div id="This is not the future of the web. This future is television.">
 
-            <h3> This future is television.</h3>
+      <h3 id="Four"> This future is television.</h3>
 
-            <p>Sometimes I think maybe I'm becoming too strict as I age. Maybe this is all a natural evolution of a technology. But I can't close my eyes to what's happening: A loss of intellectual power and diversity, and on the great potentials it could have for our troubled time. In the past, the web was powerful and serious enough to land me in jail. Today it feels like little more than entertainment. So much that even Iran doesn't take some - Instagram, for instance - serious enough to block.</p>
+      <div id="Red"></div>
 
-        </div>
+            <p class="Facebook">Sometimes I think maybe I'm becoming too strict as I age. Maybe this is all a natural evolution of a technology. But I can't close my eyes to what's happening: A loss of intellectual power and diversity, and on the great potentials it could have for our troubled time. In the past, the web was powerful and serious enough to land me in jail. Today it feels like little more than entertainment. So much that even Iran doesn't take some - Instagram, for instance - serious enough to block.</p>
 
-        <div id="Red"></div>
-        <div id="I miss when people took time to be exposed to different opinions">
 
-            <h3>I miss when people took time to be exposed to different opinions</h3>
 
-            <p> and bothered to read more than a paragraph or 140 characters. I miss the days when I could write something on my own blog, publish on my own domain, without taking an equal time to promote it on numerous social networks; when nobody cared about likes and reshares.<br />That's the web I remember before jail. That's the web we have to save.</p>
+
+
+            <h3 id="Three">I miss when people took time to be exposed to different opinions</h3>
+
+            <p class="Imiss"> and bothered to read more than a paragraph or 140 characters. I miss the days when I could write something on my own blog, publish on my own domain, without taking an equal time to promote it on numerous social networks; when nobody cared about likes and reshares.<br />That's the web I remember before jail. That's the web we have to save.</p>
 
         </div>
         </div>
