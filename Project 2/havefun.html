@@ -59,7 +59,7 @@ body {
 .yellowborder {
     height: 300px;
     width: 340px;
-    background: url("emoji/FB2.2 Aug2417.png");
+    background: url("emoji/04smile.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size:100px;
@@ -73,13 +73,19 @@ body {
     left: calc(50% - 190px);
 }
 
+.yellowborder:hover {
+  animation: emoji2 10s steps(1, start) infinite;
+}
+
 .yellowborder h2{
   position:absolute;
-  left:19px;
+  left:37px;
   bottom:-50px;
   text-align: center;
   margin:0;
 }
+
+
 
 
 @keyframes emoji1 {
@@ -188,6 +194,90 @@ body {
 
 }
 
+@keyframes emoji2 {
+  0% {
+    background-image: url("emoji/04smile.jpg");
+  }
+
+  5% {
+    background-image: url("emoji/cellphone emoji.jpg");
+  }
+
+  10%{
+    background-image: url("emoji/Gmail2013emoji.png");
+  }
+
+  15%{
+    background-image: url("emoji/Gmail2009smile.png");
+  }
+
+  20%{
+    background-image: url("emoji/Mozilla16.png");
+  }
+
+  25%{
+    background-image: url("emoji/FB1.0 Feb114.png");
+  }
+
+  30%{
+    background-image: url("emoji/smiling-face.png");
+  }
+
+  35%{
+    background-image: url("emoji/iOS5.1 Mar812.png");
+  }
+
+  40%{
+    background-image: url("emoji/iOS11.2 Dec217.png");
+  }
+
+  45%{
+    background-image: url("emoji/iOS10.0 Sept1316.png");
+  }
+
+  50%{
+    background-image: url("emoji/18Twitter.png");
+  }
+
+  55%{
+    background-image: url("emoji/originsmile.png");
+  }
+
+  60%{
+    background-image: url("emoji/16Messenger.png");
+  }
+
+  65%{
+    background-image: url("emoji/EmojiOneV1 Sept114.png");
+  }
+
+  70%{
+    background-image: url("emoji/Win8 Oct2612.png");
+  }
+
+  75%{
+    background-image: url("emoji/Win10 July2915.png");
+  }
+
+  80%{
+    background-image: url("emoji/Win10 Oct1717.png");
+  }
+
+  85%{
+    background-image: url("emoji/EmojiOneV3.1 Jun3017.png");
+  }
+
+  90%{
+    background-image: url("emoji/google Android8.1 Dec517.png");
+  }
+
+  95%{
+    background-image: url("emoji/FB2.2 Aug2417.png");
+  }
+
+
+}
+
 </style>
 
 <body>
@@ -201,6 +291,7 @@ body {
   <div id="blackbox">
     <div class="yellowborder">
       <h2 style="color:black;">SMILE IS APPEARING</h2>
-
+    </div>
   </div>
+
 </body>
