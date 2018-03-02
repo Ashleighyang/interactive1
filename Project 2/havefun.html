@@ -28,42 +28,57 @@ body {
 }
 
 .blackborder{
-  height: 200px;
-  width: 240px;
-  background: url("emoji/Win10 Oct1717.png");
+  height: 300px;
+  width: 340px;
+  background: url("emoji/FB2.2 Aug2417.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size:contain;
-  border-top:solid 20px black;
-  border-left:solid 20px black;
-  border-right:solid 20px black;
-  border-bottom:solid 60px black;
+  background-size:100px;
+  background-color: white;
+  border-top:solid 40px black;
+  border-left:solid 40px black;
+  border-right:solid 40px black;
+  border-bottom:solid 80px black;
   position: absolute;
-  top: calc(50% - 100px);
-  left: calc(50% - 120px);
+  top: calc(50% - 170px);
+  left: calc(50% - 190px);
 
 }
 
 .blackborder:hover {
-    animation: emoji1 10s steps(19, end) infinite;
+    animation: emoji1 10s steps(1, start) infinite;
 }
 .blackborder h2 {
   position: absolute;
-  left:20px;
-  bottom:0px;
+  left:19px;
+  bottom:-50px;
+  text-align: center;
   margin:0;
 }
 
 .yellowborder {
-    height: 200px;
-    width: 240px;
-    border-top:solid 20px #FFD700;
-    border-left:solid 20px #FFD700;
-    border-right:solid 20px #FFD700;
-    border-bottom:solid 60px #FFD700;
+    height: 300px;
+    width: 340px;
+    background: url("emoji/FB2.2 Aug2417.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:100px;
+    background-color: white;
+    border-top:solid 40px #FFD700;
+    border-left:solid 40px #FFD700;
+    border-right:solid 40px #FFD700;
+    border-bottom:solid 80px #FFD700;
     position: absolute;
-    top: calc(50% - 100px);
-    left: calc(50% - 120px);
+    top: calc(50% - 170px);
+    left: calc(50% - 190px);
+}
+
+.yellowborder h2{
+  position:absolute;
+  left:19px;
+  bottom:-50px;
+  text-align: center;
+  margin:0;
 }
 
 
@@ -103,12 +118,12 @@ body {
   }
 
   35% {
-    background-image: url("emoji/originalsmile.png");
+    background-image: url("emoji/originsmile.png");
 
   }
 
   40% {
-    background-image: url("emoji/oGoogle Android4.3 July912.png");
+    background-image: url("emoji/Google Android4.3 July912.png");
 
   }
 
@@ -163,18 +178,16 @@ body {
   }
 
   95% {
-    background-image: url("cellphone emoji.jpg");
+    background-image: url("emoji/cellphone emoji.jpg");
 
   }
 
-  100% {
-    background-image: url("04smile.jpg");
-
+   100% {
+    background-image: url("emoji/04smile.jpg");
   }
-
-
 
 }
+
 </style>
 
 <body>
@@ -187,6 +200,7 @@ body {
 
   <div id="blackbox">
     <div class="yellowborder">
+      <h2 style="color:black;">SMILE IS APPEARING</h2>
 
   </div>
 </body>
