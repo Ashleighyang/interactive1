@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spotlight</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+    html, body {
+    overflow: hidden
+
+    }
+
+body{
+  background-color:#1E90FF;
+
+}
+
+p{
+  font-family: avenir;
+  font-weight: 800;
+  line-height: 50px;
+}
+
+    #button {
+    background:white;
+    font-size: 18pt;
+    font-family:sans-serif;
+    color:#1E90FF;
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    bottom: calc(2vh + 10px);
+    right:calc(2vw + 10px);
+    text-align: center;
+    padding-bottom: 70px;
+    z-index:100;
+    border-radius: 8px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.2s;
+    }
+
+#button:hover{
+  width: 160px;
+  height: 20px;
+  bottom: calc(2vh + 5px);
+  right:calc(2vw + 5px);
+  font-size: 20pt;
+  padding-bottom: 75px;
+}
+
+    #rotate {
+    transform: rotate(-1deg);
+    }
+
+    #count {
+      text-align: left;
+      font-size: 70px;
+      font-family: sans-serif;
+      position: absolute;
+      top: 10%;
+      left:62vw;
+      color:#696969;
+    }
+
+
+
+    .holding {
+    position: fixed;
+    top: calc(50% - 300px)
+    left: calc(50% - 500px)
+    }
+
+    .arm {
+    position: absolute;
+    top: -10px;
+    }
+
+    .panL{
+    position: absolute;
+    left:-330px;
+    top: -70px;
+    }
+
+    .panR{
+    position: absolute;
+    left: 330px;
+    top: -70px;
+    }
+
+    #armBox {
+    position:relative;
+    width:100vw;
+    height:100vh;
+    transform-origin: 52% 54%;
+    }
+
+    .print {
+      position: absolute;
+      top: 20%;
+      font-size: 18px;
+      font:Arial;
+      font-weight:400;
+      color: white;
+    }
+
+    .explain {
+      position: absolute;
+      top: 75%;
+      font-size: 10px;
+      font:Arial;
+      color: white;
+    }
+
+    </style>
+
+
+    <link rel="stylesheet" media="print" href="printfollow.css" />
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="scale.js" type="text/javascript" defer></script>
+    <script src="index.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="odometer-theme-cars.css" />
+    <script src="odometer.js"></script>
+  </head>
+
+
+  <body>
+
+  <p class="print"> How Much A "Big V" User Weight?</p>
+
+
+
+  <img class="holding" src="holding.svg">
+
+  <div id="armBox">
+      <div id="count"><p><span id="countNumber" class="odometer"></span></br> <span style="font-size:0.4em; font-weight:300;" > Followers</span></p></div>
+    <div id="particles-js"></div>
+    <div id="particles-js-2"></div>
+  <img class="arm" src="arm.svg">
+  <img id="leftPan" class="panL" id="rotate" src="pan.svg">
+  <img id="rightPan" class="panR" src="pan.svg">
+</div>
+
+  <p class="explain">
+Weight is the priority that website values users. "Big V" users usually refers to the users who own over 500,000 followers.
+The website will display their status, moment, answers on the timeline of all the users, and recommend them to new users to follow at the beginning they browse.
+However, the number of Big V users is lower than 1% of total users, which means based on the design of website, 1% of people decide what the rest of users can see.
+  </p>
+
+
+  <div id="button"><p>FOLLOW</p></div>
+
+
+  </body>

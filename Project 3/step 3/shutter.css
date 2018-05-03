@@ -1,0 +1,8 @@
+let myElement = document.querySelector('#button')
+let apertureBlades = document.querySelector('#A')
+
+
+	myElement.onpointerdown = function(){
+		apertureBlades.classList.toggle('shut')
+		// <div id="myElement" class="down"></div>
+	}
